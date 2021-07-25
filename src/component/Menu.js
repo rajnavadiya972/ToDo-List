@@ -12,7 +12,7 @@ function Menu() {
                 </div>
                 <ul>
                     <li><Link className="link" to='/'>Home</Link></li>
-                    <li><Link exact className="link" to='/ToDo'>ToDo</Link></li>
+                    <li><Link className="link" to='/ToDo'>ToDo</Link></li>
                 </ul>
             </nav>
         </>
