@@ -1,0 +1,70 @@
+.containar {
+    display: flex;
+    width: 100%;
+}
+
+.containar p {
+    text-align: center;
+    width: 35%;
+    margin: auto auto auto 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ee72e4;
+}
+
+.containar p span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #8d0682;
+    margin: auto;
+}
+
+.photo {
+    width: 50%;
+    height: 30rem;
+    margin: 0px auto;
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo .insta {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+.containar .p1 {
+    width: 50%;
+    height: 30rem;
+}
+
+@media screen and (max-width:750px) {
+    .containar {
+        flex-direction: column;
+    }
+    .containar p {
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .photo {
+        width: 100%;
+    }
+    .containar .p1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .photo {
+        height: 18rem;
+    }
+    .containar .p1 {
+        height: 18rem;
+    }
+}
