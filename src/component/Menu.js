@@ -11,7 +11,7 @@ function Menu() {
                     <img src={logo} alt="logo" />
                 </div>
                 <ul>
-                    <li><Link exact className="link" to='/'>Home</Link></li>
+                    <li><Link className="link" to='/'>Home</Link></li>
                     <li><Link exact className="link" to='/ToDo'>ToDo</Link></li>
                 </ul>
             </nav>
